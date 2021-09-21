@@ -128,8 +128,8 @@ function clickHandler(){
     }else{
       [counterValue, palindromeDate] = nextPalindromeDate(birthDate);
       output.innerText = (counterValue === 1) ?
-      `Sorry😐, your birthday is not a palindrome.The next palindrome date is just a day away, i.e., on ${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year}.` :
-      `Sorry😐, your birthday is not a palindrome.The next palindrome date is ${counterValue} days away, i.e., on ${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year}.`;
+      `Sorry😐, your birthday is not a palindrome. The nearest palindrome date is just a day away i.e., on ${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year}.` :
+      `Sorry😐, your birthday is not a palindrome. The nearest palindrome date is ${counterValue} days away i.e., on ${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year}.`;
     } 
   }
 }
